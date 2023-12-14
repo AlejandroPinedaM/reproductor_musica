@@ -1,0 +1,16 @@
+.disco{
+  width: 500px;
+  height: 500px;
+  animation-name: girar;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /*animation-play-state: paused;*/
+}
+@keyframes girar {
+  from{
+    transform:rotate(0deg);
+  }to{
+    transform:rotate(360deg);
+  }
+}
